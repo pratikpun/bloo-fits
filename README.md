@@ -12,7 +12,10 @@ Authentication is done using Firebase, which handles login, signup, account mana
 #### Learnt
 
 - React Router
-- React context for state management
+- React context for state management:
+  - Check if user is logged in or not.
+  - Keep track of toggling state for displaying cart dropdown menu in different pages.
+  - Keeping track of quantity of items when adding to cart.
 - Firebase authentication
 
 ## Installation guides
