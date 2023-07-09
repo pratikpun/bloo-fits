@@ -11,7 +11,15 @@ Authentication is done using Firebase, which handles login, signup, account mana
 
 #### Learnt
 
-- React Router
+- react-router-dom:
+  - nested routes, which can be found by navigating to the items in /shop.
+  - Usage of Link, in _declarative_ ways. By specifying the target destination, without explaining the way to get there.
+  #### Declarative
+  ```
+  <Link className="title" to={title}>
+          {title.toUpperCase()}
+  </Link>
+  ```
 - React context for state management:
   - Check if user is logged in or not.
   - Keep track of toggling state for displaying cart dropdown menu in different pages.
